@@ -11436,7 +11436,8 @@ a:hover {
 }
 
 .footer .infos {
-  text-align: right;
+  text-align: center;
+  align-items: center
   color: #fff;
   opacity: 1;
   width: 50%;
@@ -11552,12 +11553,18 @@ a:hover {
   font-weight: bold;
 }
  .parallaxpic {
-  background-image: url('../imgs/me.png');
+  background-image: url('../imgs/me.svg');
   height: 10%; 
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 300px;
+  background-size: 300px;	 
 }
+ .pattern {
+  height: 10%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+	 }
 @media (prefers-reduced-motion: reduce) {
   .header .header-content .btn-theme-color {
     -webkit-transition: none;
@@ -11839,3 +11846,4 @@ body.dark-theme {
   content: "";
   top: 5px;
 }
+
